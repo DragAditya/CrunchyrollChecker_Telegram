@@ -6,11 +6,11 @@ from datetime import datetime, timedelta
 import random
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_TOKEN = '7440238098:AAGDs_IiFT1Sa4esb_yPSwRonWQxq2o7Bac'  # Replace with your actual token
+API_TOKEN = '6937591006:AAGaBgBlu4gKFKc9_e9lyep1U2lcgtqtFwQ'  # Replace with your actual token
 bot = telebot.TeleBot(API_TOKEN)
 
 # List of Admin IDs - Replace with actual admin chat IDs
-Admins = ['7158332605', '7219636858']  # Replace these with your actual admin chat IDs
+Admins = ['1183272367']  # Replace these with your actual admin chat IDs
 
 def check_crunchyroll_account(email, password):
     device_id = ''.join(random.choice('0123456789abcdef') for _ in range(32))
